@@ -19,7 +19,7 @@ const Header = () => {
                 <input value={search} onChange={(e)=>setSearch(e.target.value)} className='w-[300px] h-[30px] rounded-lg p-[20px] border-none outline-none ' type="text" placeholder="Search" />
             </div>
             <div>
-                <p className='text-white'>Found {movie.length} top results</p>
+                <p className='text-white'>Found {movie?.length} top results</p>
             </div>
         </div>
     )
